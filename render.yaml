@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: autonomus-market-research-agent
+    env: node
+    region: oregon
+    buildCommand: cd frontend && npm install && npm run build
+    startCommand: cd frontend && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000

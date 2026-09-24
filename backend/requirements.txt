@@ -1,0 +1,12 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic==2.9.2
+python-dotenv==1.0.1
+google-genai==1.5.0
+langgraph==1.2.10
+matplotlib==3.9.2
+reportlab==4.2.5
+tavily-python==0.7.27
+pymongo==4.17.0
+motor==3.7.1
+requests==2.32.3

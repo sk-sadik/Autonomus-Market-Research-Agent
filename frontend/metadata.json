@@ -1,0 +1,8 @@
+{
+  "name": "Autonomus Market Research Agent",
+  "description": "Autonomous market research platform that analyzes startup ideas, scrapes competitor pricing, synthesizes user reviews, generates growth charts, and produces full 20-page market research PDF reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
