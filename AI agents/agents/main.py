@@ -20,6 +20,7 @@ Endpoints:
     GET  /api/research/report/{id}       (fetch a previously generated report from the in-memory cache)
 """
 from __future__ import annotations
+import os
 import logging
 from datetime import datetime, timezone
 

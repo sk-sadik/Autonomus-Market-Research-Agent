@@ -1,10 +1,29 @@
-﻿node_modules/
-dist/
-build/
+﻿# Environment variables & API keys (CRITICAL - DO NOT COMMIT)
 .env
 .env.local
-.env.*.local
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+dist/
+build/
 *.log
 .vscode/
 .idea/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Zip files & heavy archives
+*.zip
+
+# Generated PDF reports & scratch files
+backend/reports/*.pdf
+backend/reports/charts/
+reports/*.pdf
 .DS_Store
